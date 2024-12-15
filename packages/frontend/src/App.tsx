@@ -1,5 +1,6 @@
-import { ArrowLeftRight as BridgeIcon, Droplet, RefreshCw } from 'lucide-react'
-import { Bridge } from '@/Bridge'
+import { ArrowLeftRight as BridgeIcon, Droplet, RefreshCw, Plus } from 'lucide-react'
+import { Swap } from '@/Swap'
+import { Liquidity } from '@/Liquidity'
 import { Providers } from '@/Providers'
 import { WalletBalance } from '@/components/WalletBalance'
 import { Card } from '@/components/ui/card'
@@ -61,16 +62,23 @@ function App() {
                         <Droplet className="mr-2 h-4 w-4" />
                         Faucet
                       </TabsTrigger>
-                      <TabsTrigger value="bridge" className="flex-1">
+                      <TabsTrigger value="liquidity" className="flex-1">
+                        <Plus className="mr-2 h-4 w-4" />
+                        Liquidity
+                      </TabsTrigger>
+                      <TabsTrigger value="swap" className="flex-1">
                         <BridgeIcon className="mr-2 h-4 w-4" />
-                        Bridge
+                        Swap
                       </TabsTrigger>
                     </TabsList>
                   </div>
 
                   <div className="p-6">
-                    <TabsContent value="bridge">
-                      <Bridge />
+                    <TabsContent value="swap">
+                      <Swap />
+                    </TabsContent>
+                    <TabsContent value="liquidity">
+                      <Liquidity />
                     </TabsContent>
                     <TabsContent value="faucet">
                       <Faucet />
