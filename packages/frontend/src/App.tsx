@@ -1,4 +1,9 @@
-import { ArrowLeftRight as BridgeIcon, Droplet, RefreshCw, Plus } from 'lucide-react'
+import {
+  ArrowLeftRight as BridgeIcon,
+  Droplet,
+  RefreshCw,
+  Plus,
+} from 'lucide-react'
 import { Swap } from '@/Swap'
 import { Liquidity } from '@/Liquidity'
 import { Providers } from '@/Providers'

@@ -1,2 +1,4 @@
 @contracts-bedrock/=packages/contract/lib/optimism/packages/contracts-bedrock/src/
+@contracts-intefaces/=packages/contract/lib/optimism/packages/contracts-bedrock/interfaces/
 @solady/=packages/contract/lib/optimism/packages/contracts-bedrock/lib/solady/src/
+@openzeppelin/contracts/=packages/contract/lib/optimism/openzeppelin-contracts/contracts/
